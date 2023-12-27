@@ -8,7 +8,8 @@
                     <div class="col-lg-3 col-md-3 col-12">
                         <!-- Start Logo -->
                         <div class="logo">
-                            <a href="#"><img src="{{ asset('assets/img/logo.png') }}" alt="#" /></a>
+                            <a href="{{ route('home') }}"><img src="{{ asset('assets/img/logo.png') }}"
+                                    alt="#" /></a>
                         </div>
                         <!-- End Logo -->
                         <!-- Mobile Nav -->
@@ -21,11 +22,11 @@
                             <nav class="navigation">
                                 <ul class="nav menu">
                                     <li class="deactive">
-                                        <a href="#">HOME</a>
+                                        <a href="{{ route('home') }}">HOME</a>
                                     </li>
-                                    <li><a href="#">PENGURUS NU </a></li>
+                                    <li><a href="{{ route('pengurus') }}">PENGURUS NU </a></li>
                                     <li>
-                                        <a href="#">PRNU <i class="icofont-rounded-down"></i> </a>
+                                        <a href="{{ route('ranting') }}">PRNU <i class="icofont-rounded-down"></i> </a>
                                         <ul class="dropdown">
                                             <li><a href="#">BARATAN</a></li>
                                             <li><a href="#">PATRANG</a></li>
