@@ -26,13 +26,13 @@
                                     </li>
                                     <li><a href="{{ route('pengurus') }}">PENGURUS NU </a></li>
                                     <li>
-                                        <a href="{{ route('ranting') }}">PRNU <i class="icofont-rounded-down"></i> </a>
+                                        <a href="#">PRNU <i class="icofont-rounded-down"></i> </a>
                                         <ul class="dropdown">
-                                            <li><a href="#">BARATAN</a></li>
-                                            <li><a href="#">PATRANG</a></li>
-                                            <li><a href="#">BINTORO</a></li>
-                                            <li><a href="#">BANJARSENGON</a></li>
-                                            <li><a href="#">GEBANG</a></li>
+                                            <li><a href="{{ route('ranting') }}">BARATAN</a></li>
+                                            <li><a href="{{ route('ranting') }}">PATRANG</a></li>
+                                            <li><a href="{{ route('ranting') }}">BINTORO</a></li>
+                                            <li><a href="{{ route('ranting') }}">BANJARSENGON</a></li>
+                                            <li><a href="{{ route('ranting') }}">GEBANG</a></li>
                                         </ul>
                                     </li>
                                     <li>

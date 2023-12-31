@@ -15,4 +15,7 @@ class HomeController extends Controller
     public function ranting(){
         return view('ranting');
     }
+    public function detail(){
+        return view('detail-event');
+    }
 }

@@ -54,6 +54,7 @@ body {
   font-size: 14px;
   color: #888;
 }
+
 .pro-features {
   position: fixed;
   right: -300px;
@@ -245,6 +246,7 @@ body {
 .header .navbar-collapse {
   padding: 0;
 }
+
 /* Topbar */
 .header .topbar {
   background-color: #fff;
@@ -654,7 +656,7 @@ body {
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  padding-top: 10;
+  padding-bottom: 10;
   border-radius: 50%;
 }
 .slider .owl-carousel .owl-nav div:hover {
@@ -4008,7 +4010,6 @@ body {
   line-height: 34px;
   border: 1px solid #fff;
   text-align: center;
-  padding-top: 25%;
   border-radius: 100%;
   display: block;
   color: #fff;

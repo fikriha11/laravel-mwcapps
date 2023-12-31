@@ -1,18 +1,8 @@
- <!-- Breadcrumbs -->
- <div class="breadcrumbs overlay">
+ <!-- ======= Breadcrumbs ======= -->
+ <section id="breadcrumbs" class="breadcrumbs">
      <div class="container">
-         <div class="bread-inner">
-             <div class="row">
-                 <div class="col-12">
-                     <h2>Portfolio Details</h2>
-                     <ul class="bread-list">
-                         <li><a href="index.html">Home</a></li>
-                         <li><i class="icofont-simple-right"></i></li>
-                         <li class="active">Portfolio Details</li>
-                     </ul>
-                 </div>
-             </div>
+         <div class="d-flex justify-content-between align-items-center">
+             <h4>Pengurus MWCNU Patrang</h4>
          </div>
      </div>
- </div>
- <!-- End Breadcrumbs -->
+ </section><!-- End Breadcrumbs -->

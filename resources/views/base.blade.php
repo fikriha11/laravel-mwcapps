@@ -1,19 +1,32 @@
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="zxx">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MWC NU PATRANG</title>
-    <link rel="shortcut icon" href="{{ asset('assets/img/favicon.png') }}" type="image/x-icon">
-    @include('style.style')
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="keywords" content="Site keywords here">
+    <meta name="description" content="">
+    <meta name='copyright' content=''>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>MWCNU PATRANG</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="{{ asset('assets/img/favicon.png') }}">
+
+    <!-- Google Fonts -->
+    @include('style/style')
+
 </head>
 
 <body>
 
     @yield('content')
-    @include('style.js')
 
+    <!-- jquery Min JS -->
+    @include('style/js')
 </body>
 
 </html>

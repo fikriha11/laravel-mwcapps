@@ -1,6 +1,7 @@
 @extends('base')
 
 @section('content')
+    @include('widget.preloader')
     @include('widget.header')
     @include('widget.slider')
     @include('widget.schedule')
