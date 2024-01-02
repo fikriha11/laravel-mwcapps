@@ -28,7 +28,6 @@
     @include('widget.breadcum')
     @include('widget.category-pengurus')
     @include('widget.footer')
-
     <!-- jquery Min JS -->
     @include('style/js')
 </body>

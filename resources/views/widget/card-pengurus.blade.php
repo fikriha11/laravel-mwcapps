@@ -3,7 +3,7 @@
         <div class="card-body p-0">
             <div class="row g-0">
                 <div class="col-md-3"
-                    style="background: url('{{ asset('assets/img/kh-hisyam-balya.png') }}') center center no-repeat; background-size: cover;">
+                    style="background: url('{{ asset('assets/img/pengurus/khhisyambalya.jpg') }}') center center no-repeat; background-size: cover;">
                 </div>
                 <div class="col-md-9 p-4">
                     <h6 class="card-title fw-bold"><a
@@ -13,7 +13,7 @@
                     <ul class="list-group">
                         <li class="list-group-item">
                             <h6 class="mb-0"><span class="badge bg-primary me-3">Jabatan</span>
-                                Rais
+                                @yield('jabatan')
                             </h6>
                         </li>
                         <li class="list-group-item">

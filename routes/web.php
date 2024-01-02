@@ -2,13 +2,13 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PengurusController;
 
-Route::controller(HomeController::class)->group(function () {
-    Route::get('/', 'index')->name('home');
-    Route::get('/welcome', function(){
-        return view('welcome');
-    });
-    Route::get('/pengurus', 'pengurus')->name('pengurus');
-    Route::get('/detail-event', 'detail')->name('detail-event');
-    Route::get('/ranting', 'ranting')->name('ranting');
-});
+Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/detail-event', [HomeController::class, 'detail'])->name('detail-event');
+Route::get('/ranting', [HomeController::class, 'ranting'])->name('ranting');
+Route::get('/pengurus', [PengurusController::class, 'index'])->name('pengurus');
+
+Route::get('/welcome', function () {
+    return view('welcome');
+})->name('welcome');
